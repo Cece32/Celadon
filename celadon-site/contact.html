@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Céladon – Contact</title>
+  <link rel="stylesheet" href="style/style.css">
+  <meta name="description" content="Formulaire de contact Céladon.">
+</head>
+<body>
+  <header>
+    <div class="container topbar">
+      <div class="brand"><span class="brand-badge"></span><span>CÉLADON</span></div>
+      <nav aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="marque.html">La marque</a></li>
+          <li><a href="produits.html">Produits</a></li>
+          <li><a href="connexion.html">Connexion</a></li>
+          <li><a class="actif" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1>Nous écrire</h1>
+    <p class="lead">Une question sur un produit, un conseil, un retour d’expérience ? Écrivez-nous.</p>
+
+    <!-- Formulaire HTML pur (non fonctionnel côté serveur, conforme au sujet) -->
+    <form action="#" method="post">
+      <div>
+        <label for="nom">Nom complet</label>
+        <input id="nom" name="nom" type="text" placeholder="Votre nom" required>
+      </div>
+      <div>
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" placeholder="vous@exemple.com" required>
+      </div>
+      <div>
+        <label for="sujet">Sujet</label>
+        <select id="sujet" name="sujet">
+          <option>Conseil produit</option>
+          <option>Commande</option>
+          <option>Autre</option>
+        </select>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Votre message..."></textarea>
+      </div>
+      <div>
+        <input class="btn btn-primaire" type="submit" value="Envoyer">
+      </div>
+    </form>
+
+    <section class="section">
+      <h2>Réseaux sociaux</h2>
+      <p>Suivez nos actualités&nbsp;: <a href="#">Instagram</a> · <a href="#">TikTok</a> · <a href="#">YouTube</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div class="footer-col"><a href="index.html">Accueil</a></div>
+      <div class="footer-col">© Céladon</div>
+    </div>
+  </footer>
+</body>
+</html>
